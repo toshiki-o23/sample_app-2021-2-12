@@ -40,3 +40,8 @@ $ rails server
 
 詳しくは、[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
 を参考にしてください。
+
+
+herokuでデプロイしたURL
+
+https://young-dawn-76602.herokuapp.com
