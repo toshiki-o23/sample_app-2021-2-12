@@ -101,6 +101,9 @@ Rails.application.configure do
     :domain         => host,
     :authentication => :plain,
   }
+  
+  # アップロードされたファイルをAWSに保存する
+  config.active_storage.service = :amazon
 
   # Inserts middleware to perform automatic connection switching.
   # The `database_selector` hash is used to pass options to the DatabaseSelector
